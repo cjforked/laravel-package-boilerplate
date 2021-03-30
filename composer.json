@@ -8,15 +8,13 @@
     ],
     "homepage": "https://github.com/vendor_slug/package_slug",
     "license": "MIT",
-    "authors": [
-        {
-            "name": ":author_name",
-            "email": "author@domain.com",
-            "role": "Developer"
-        }
-    ],
+    "authors": [{
+        "name": ":author_name",
+        "email": "author@domain.com",
+        "role": "Developer"
+    }],
     "require": {
-        "php": "^8.0",
+        "php": "^7.3|^8.0",
         "spatie/laravel-package-tools": "^1.4.3",
         "illuminate/contracts": "^8.0"
     },
